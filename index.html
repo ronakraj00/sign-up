@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <img src="sunset.jpg" alt="sunset">
+    <div id="left">
+        <section id="para">
+            <p>
+               <span id="first-para">This is not a real online service! </span> You know
+                you need something <br> like this in your life to
+                help you realize your deepest dreams. <br>
+                Sign up now to get started. <br><br>
+               <span id="first-para">You know you want to.</span> 
+            </p>
+        </section>
+        <h2>Let's do this!</h2>
+        <form action="confirm.html" method="post">
+            <div class="side0">
+                <div class="side1">
+
+                    <label for="name">FIRST NAME <span></span><br><input type="text" id="name" required><span></span></label>
+                    <label for="lastname">LAST NAME <span></span><br><input type="text" id="lastname" required><span></span></label>
+                    
+                </div>
+                <div class="side2">
+
+                    <label for="email">EMAIL<span></span><br><input type="email" id="email" required><span></span></label>
+                    <label for="phone">PHONE NUMBER<span></span><br><input type="tel" id="phone" minlength="10" maxlength="12" required><span></span></label>
+                    
+                </div>
+                <div class="side3">
+
+                    <label for="pass">PASSWORD<span></span><br><input type="password" id="pass" required><br><span id="confirm"></span></label>
+                    <label for="conf">CONFIRM PASSWORD<span></span><br><input type="password" id="conf" required><span></span></label>
+                    
+                </div>
+            </div>
+            <button>Create Account</button>
+        </form>
+        <p id="last-para">Already have an account<a href="#"> Log in</a></p>  
+    </div>  
+</body>
+</html>
